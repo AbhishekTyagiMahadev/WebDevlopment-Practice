@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission Form</title>
+</head>
+
+<body>
+    <form action="post">
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" required placeholder="Enter your name">
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" required placeholder="Enter your email">
+        <br>
+        <label for="phone"">Phone:</label>
+        <input type="tel" name="phone" id="phone" required placeholder="Enter your phone number">
+        <br>
+        <label for="dob">Date of Birth:</label>
+        <input type="date" name="dob" id="dob" required placeholder="Enter your date of birth">
+        <br>
+        <label for="address">Address:</label>
+        <textarea name="address" id="address" required >Enter your addresss here...</textarea>
+        <br>
+        <label>Gender:</label>
+        <input type="radio" name="gender" value="male" required> Male
+        <input type="radio" name="gender" value="female" required> Female
+        <br>
+        <label>Hobbies:</label>
+        <input type="checkbox" name="hobbies" value="reading"> Reading
+        <input type="checkbox" name="hobbies" value="traveling"> Traveling
+        <input type="checkbox" name="hobbies" value="sports"> Sports
+        <br>
+        <label for="country">Country:</label>
+        <select name="country" id="country" required>
+            <option value="usa">USA</option>
+            <option value="canada">Canada</option>
+            <option value="uk">UK</option>
+            <option value="australia">Australia</option>
+        </select>
+        <br>
+        <label for="profile_picture">Profile Picture:</label>
+        <input type="file" name="profile_picture" id="profile_picture" accept="image/*">
+        <br>
+        <label for="comments">Comments:</label>
+        <textarea name="comments" id="comments">Enter comments...</textarea>
+        <br>
+        <input type="submit" value="Submit Form">
+</body>
+
+</html>
