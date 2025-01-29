@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ID and Classes</title>
+    <style>
+        .class-example {
+            color: blue;
+            font-size: 20px;
+        }
+        #id-example {
+            color: red;
+            font-weight: bold;
+        }
+        .highlight {
+            background-color: yellow;
+        }
+        #unique {
+            border: 2px solid green;
+        }
+        .container {
+            padding: 20px;
+            border: 1px solid black;
+        }
+        .header {
+            font-size: 24px;
+            text-align: center;
+        }
+        .footer {
+            font-size: 14px;
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="header">Welcome to My Website</h1>
+        <p class="class-example">This is a paragraph with a class.</p>
+        <p id="id-example">This is a paragraph with an ID.</p>
+        <p class="class-example highlight">This is another paragraph with the same class and an additional class.</p>
+        <div id="unique" class="highlight">
+            <p>This is a nested paragraph inside a div with an ID and a class.</p>
+            <span class="class-example">This is a span with a class inside the div.</span>
+        </div>
+        <footer class="footer">This is the footer of the page.</footer>
+    </div>
+</body>
+</html>
