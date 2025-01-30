@@ -1,0 +1,31 @@
+/* This is a comment in CSS */
+
+/* Styling the body element */
+body {
+    background-color: #bca9a9;
+}
+
+/* Styling all h1 elements */
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+/* Styling all paragraph elements */
+p {
+    color: #666;
+    margin: 20px;
+}
+
+/* Styling a class named 'highlight' */
+.highlight {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+/* Styling an ID named 'unique' */
+#unique {
+    border: 2px solid green;
+    padding: 10px;
+    margin: 20px;
+}
