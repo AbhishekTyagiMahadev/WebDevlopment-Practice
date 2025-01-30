@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+        /* Universal Selector */
+        * {
+            margin: 5;
+            padding: 5;
+        }
+
+        /* Type Selector */
+        h1 {
+            color: blue;
+        }
+
+        /* Class Selector */
+        .highlight {
+            background-color: yellow;
+        }
+
+        /* ID Selector */
+        #unique {
+            border: 2px solid green;
+            border-radius: 50px;
+            text-align: center;
+        }
+
+        /* Attribute Selector */
+        a[target="_blank"] {
+            color: rgb(27, 220, 117);
+        }
+
+        /* pseudo selectors */
+        a:hover {
+            color: rgb(220, 27, 27);
+        }
+        a:active {
+            color: rgb(27, 27, 220);
+        }
+        a:visited {
+            color: rgb(27, 27, 27);
+        }
+
+        /* Descendant Selector */
+        div p {
+            color: rgb(247, 21, 21);
+        }
+
+        /* Child Selector */
+        ul > li {
+            list-style-type: square;
+        }
+
+        /* Adjacent Sibling Selector */
+        h2 + p {
+            font-style: italic;
+        }
+
+        /* General Sibling Selector */
+        h2 ~ p {
+            color: gray;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS Selectors Example</h1>
+    <p class="highlight">This paragraph is highlighted with a yellow background.</p>
+    <div id="unique">
+        <p>This is a unique section with a green border.</p>
+    </div>
+    <a href="https://www.google.com" target="_blank">Google</a>
+    <div>
+        <p>This paragraph is inside a div and is purple.</p>
+    </div>
+    <ul>
+        <li>List item 1</li>
+        <li>List item 2</li>
+    </ul>
+    <h2>Heading 2</h2>
+    <p>This paragraph is adjacent to an h2 and is italic.</p>
+    <p>This paragraph is a general sibling of an h2 and is gray.</p>
+</body>
+</html>
