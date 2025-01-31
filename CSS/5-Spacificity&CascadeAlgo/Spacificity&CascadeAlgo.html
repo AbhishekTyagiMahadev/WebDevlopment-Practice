@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Specificity and Cascade Algorithm</title>
+    <style>
+        /* Type selector */
+        p {
+            color: blue;
+        }
+
+        /* Class selector */
+        .highlight {
+            color: green;
+        }
+
+        /* ID selector */
+        #unique {
+            color: red;
+        }
+
+        
+        /* !important rule */
+        .important {
+            color: orange !important;
+        }
+        </style>
+</head>
+<body>
+    <p>This paragraph is styled with a type selector.</p>
+    <p class="highlight">This paragraph is styled with a class selector.</p>
+    <p id="unique">This paragraph is styled with an ID selector.</p>
+    <p class="highlight important">This paragraph is styled with a class selector and an !important rule.</p>
+    <!-- Inline style -->
+    <p style="color: purple;">This paragraph has an inline style.</p>
+</body>
+</html>
