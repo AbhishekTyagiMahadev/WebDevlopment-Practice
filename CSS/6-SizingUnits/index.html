@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sizing Units in CSS</title>
+    <style>
+        .box {
+            border: 1px solid black;
+            margin: 10px;
+            padding: 10px;
+        }
+
+        /* Absolute units */
+        .box-px {
+            width: 200px;
+            height: 100px;
+        }
+
+        .box-cm {
+            width: 5cm;
+            height: 2cm;
+        }
+
+        /* Relative units */
+        .box-percent {
+            width: 50%;
+            height: 50%;
+        }
+
+        .box-em {
+            width: 20em;
+            height: 10em;
+        }
+
+        .box-rem {
+            width: 20rem;
+            height: 10rem;
+        }
+
+        .box-vw {
+            width: 50vw;
+            height: 25vh;
+        }
+    </style>
+</head>
+<body>
+    <h1>Sizing Units in CSS</h1>
+    <div class="box box-px">This box uses pixels (px).</div>
+    <div class="box box-cm">This box uses centimeters (cm).</div>
+    <div class="box box-percent">This box uses percentage (%).</div>
+    <div class="box box-em">This box uses em units.</div>
+    <div class="box box-rem">This box uses rem units.</div>
+    <div class="box box-vw">This box uses viewport width (vw) and height (vh).</div>
+</body>
+</html>
