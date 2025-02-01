@@ -1,0 +1,48 @@
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        
+        .box {
+            width: 200px;
+            height: 100px;
+            margin: 20px 0;
+            padding: 10px;
+            background-color: lightblue;
+            border: 1px solid #141313;
+        }
+        
+        .overflow-visible {
+            overflow: visible;
+        }
+        
+        .overflow-hidden {
+            overflow: hidden;
+        }
+        
+        .overflow-scroll {
+            overflow: scroll;
+        }
+        
+        .overflow-auto {
+            overflow: auto;
+        }
+        
+        .text-box {
+            width: 200px;
+            height: 50px;
+            margin: 20px 0;
+            padding: 10px;
+            background-color: lightcoral;
+            border: 1px solid #141313;
+            white-space: nowrap; /* Prevent text from wrapping */
+            overflow: hidden; /* Ensure overflow is hidden */
+        }
+        
+        .text-overflow-clip {
+            text-overflow: clip;
+        }
+        
+        .text-overflow-ellipsis {
+            text-overflow: ellipsis;
+        }
