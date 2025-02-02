@@ -1,0 +1,22 @@
+:root {
+    --main-bg-color: #e8f6a6;
+    --main-text-color: #fa0000;
+    --sec-bg-color: #13e6ee;
+    --main-padding: 10px;
+}
+
+body {
+    background-color: var(--main-bg-color);
+    color: var(--main-text-color);
+    padding: var(--main-padding);
+    margin: 25px;
+}
+
+.container {
+    border-radius: 50px;
+    border: 2px solid black;
+    background-color: var(--sec-bg-color, aqua);
+    color: var(--main-text-color);
+    padding: var(--main-padding);
+    text-align: center;
+}
