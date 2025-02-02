@@ -1,0 +1,35 @@
+body {
+    background-color: lightblue;
+    color: black;
+    padding: 20px;
+}
+
+.container {
+    background-color: white;
+    color: black;
+    padding: 20px;
+}
+
+/* Media query for devices with a max width of 600px */
+@media (max-width: 455px) {
+    body {
+        background-color: lightcoral;
+    }
+
+    .container {
+        background-color: lightyellow;
+        color: darkblue;
+    }
+}
+
+/* Media query for devices with a min width of 601px */
+@media (min-width: 601px) {
+    body {
+        background-color: lightgreen;
+    }
+
+    .container {
+        background-color: lightgray;
+        color: darkred;
+    }
+}
