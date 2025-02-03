@@ -1,0 +1,45 @@
+.container {
+    border: 5px solid red;
+    background-color: wheat;
+    padding: 5px;
+    display: grid;
+    grid-gap: 5px; /* Adds space between grid items */
+    grid-template-areas: 
+        "header header header "
+        "sidebar main main"
+        "footer footer footer";
+}
+
+.item {
+    border: 5px solid black;
+    border-radius: 20px;
+    background-color: aqua;
+    padding: 20px;
+    margin: 20px;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    height: 100px;
+}
+
+/* Assigning grid areas to items */
+.header {
+    grid-area: header;
+}
+
+.sidebar {
+    height: 60vh;
+    grid-area: sidebar;
+    background-color: rgb(151, 151, 226);
+}
+
+.main {
+    height: 60vh;
+    grid-area: main;
+    background-color: rgb(39, 252, 131);
+}
+
+.footer {
+    grid-area: footer;
+    background-color: rgb(230, 230, 93);
+}
