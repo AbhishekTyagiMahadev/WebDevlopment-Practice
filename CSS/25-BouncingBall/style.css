@@ -1,0 +1,73 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: wheat;
+}
+.container {
+    background-color: antiquewhite;
+    border: 3px solid rgb(0, 255, 247);
+    width: 80vw;
+    height: 80vh;
+    position: relative;
+}
+
+.box {
+    background-color: rgb(8, 235, 159);
+    border: 3px solid red;
+    border-radius: 50px;
+    width: 8vh;
+    height: 8vh;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    animation: X-axis 5s linear infinite, Y-axis 1s ease-out infinite alternate;
+}
+
+.box1 {
+    animation-delay: 0.5s;
+}
+
+.box2 {
+    animation-delay: 1s;
+}
+.box3 {
+    animation-delay: 1.5s;
+}
+
+.box4 {
+    animation-delay: 2s;
+}
+.box5 {
+    animation-delay: 2.5s;
+}
+.box6 {
+    animation-delay: 3s;
+}
+.box7 {
+    animation-delay: 3.5s;
+}
+.box8 {
+    animation-delay: 4s;
+}
+
+@keyframes X-axis {
+    0% {
+        left: 0%; 
+        background-color: aqua;
+    }
+    100% {
+        left: 96%;
+        background-color: rgb(70, 171, 45);
+    }
+  
+}
+@keyframes Y-axis {
+    0% {
+        bottom: 0%; 
+        background-color: yellow;
+    }
+    100% {
+        bottom: 90%;
+    }
+  
+}
