@@ -1,0 +1,71 @@
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 20vh;
+    background-color: wheat;
+}
+.container {
+    background-color: antiquewhite;
+    border: 3px solid rgb(0, 255, 247);
+    width: 50vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box {
+    background-color: rgb(8, 235, 159);
+    border: 3px solid red;
+    margin: 30px;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+.container:hover {
+    animation-name: Abhishek;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    
+}
+.container:hover .box{
+    animation-name: Abhishek2;
+    animation-duration: .5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    
+}
+@keyframes Abhishek2 {
+    0% {
+        transform:rotate(0deg);
+        border-radius: 0%;
+    }
+    50% {
+        transform: rotate(180deg) scale(0.5);
+        border-radius: 50%;
+        background-color: yellow;
+    }
+    100% {
+        transform: rotate(360deg);
+        border-radius: 0%;
+    }
+}
+@keyframes Abhishek {
+    0% {
+        transform: translate(0) translateY(0) rotate(0deg);
+        /* border-radius: 0%; */
+    }
+    50% {
+        transform: translateX(30px) translateY(30px) rotate(180deg);
+        /* border-radius: 100%; */
+    }
+    100% {
+        transform: translateX(0) translateY(0) rotate(360deg);
+        border-radius: 0%;
+    }
+}
