@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    background-color: antiquewhite;
+    border: 3px solid rgb(0, 255, 247);
+    width: 80vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.box {
+    background-color: rgb(8, 235, 159);
+    border: 3px solid red;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    transition: all 1s ease-in-out 0.5s;
+}
+
+.box:hover{
+    transform: translateX(20vw) translateY(50vh) scale(2);
+    background-color: rgb(246, 255, 0);
+    border-radius: 50px;
+}
