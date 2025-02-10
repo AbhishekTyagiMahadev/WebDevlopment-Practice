@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Image</title>
+    <style>
+        .background-container {
+            width: 100%;
+            height: 100vh;
+            background-image: url('image.jpg');
+            background-size: cover; /* Options: auto, cover, contain */
+            background-position: center; /* Options: top, bottom, left, right, center */
+            background-repeat: no-repeat; /* Options: repeat, no-repeat, repeat-x, repeat-y */
+            background-attachment: fixed; /* Options: scroll, fixed, local */
+        }
+
+        .background-container.contain {
+            background-size: contain;
+        }
+
+        .background-container.auto {
+            background-size: auto;
+        }
+
+        .background-container.repeat {
+            background-repeat: repeat;
+        }
+
+        .background-container.local {
+            background-attachment: local;
+        }
+    </style>
+</head>
+<body>
+    <div class="background-container"></div>
+    <div class="background-container contain"></div>
+    <div class="background-container auto"></div>
+    <div class="background-container repeat"></div>
+    <div class="background-container local"></div>
+</body>
+</html>

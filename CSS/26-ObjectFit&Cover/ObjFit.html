@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object Fit</title>
+    <style>
+        .container {
+            width: 300px;
+            height: 200px;
+            border: 2px solid black;
+            overflow: hidden;
+            margin-bottom: 20px;
+        }
+
+        .container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            /* Options: fill, contain, cover, none, scale-down */
+        }
+
+        .container.fill img {
+            object-fit: fill;
+        }
+
+        .container.contain img {
+            object-fit: contain;
+        }
+
+        .container.none img {
+            object-fit: none;
+        }
+
+        .container.scale-down img {
+            object-fit: scale-down;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container fill">
+        <img src="image.jpg">
+    </div>
+    <div class="container contain">
+        <img src="image.jpg">
+    </div>
+    <div class="container none">
+        <img src="image.jpg">
+    </div>
+    <div class="container scale-down">
+        <img src="image.jpg">
+    </div>
+</body>
+
+</html>
