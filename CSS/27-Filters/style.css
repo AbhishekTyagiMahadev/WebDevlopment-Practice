@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.container{
+    text-align: center;
+}
+.box {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+}
+
+img {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.original {
+    filter: none;
+}
+
+.blur {
+    filter: blur(5px);
+}
+
+.brightness {
+    filter: brightness(150%);
+}
+
+.contrast {
+    filter: contrast(200%);
+}
+
+.grayscale {
+    filter: grayscale(100%);
+}
+
+.hue-rotate {
+    filter: hue-rotate(90deg);
+}
+
+.invert {
+    filter: invert(100%);
+}
+
+.opacity {
+    filter: opacity(50%);
+}
+
+.saturate {
+    filter: saturate(200%);
+}
+
+.sepia {
+    filter: sepia(100%);
+}
