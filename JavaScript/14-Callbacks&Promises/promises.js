@@ -1,31 +1,45 @@
-// Function that returns a promise
-function asyncOperation() {
-    return new Promise((resolve, reject) => {
-        setTimeout(() => {
-            let success = false; // Simulate success or failure
+let x = new Promise((resolve, reject) => {
+    setTimeout(() => {
+        resolve("data = 1");
+    }, 0);
+    console.log("First Hello");
+    resolve("First Resolved");
+    // reject("Rejected");
+});
+console.log(x);
 
-            if (success) {
-                resolve("Async operation was successful!");
-            } else {
-                reject("Async operation failed.");
+function getdata(dataID) {
+    return new Promise((resolve, reject) => {
+        let ran = Math.random() * 10;
+        console.log(ran);
+        setTimeout(() => {
+            if(ran > 5){
+                reject("some Error uccuered in second  promise");    
+            }else{
+            console.log("data =", dataID);
+            resolve("second resolved");
             }
-        }, 2000);
+        }, 0);
     });
 }
 
-// Using the promise
-asyncOperation()
+// // let fn = getdata(10);
+// // console.log(fn);
+
+let y = getdata(145)
     .then((message) => {
-        console.log(message); // Output: Async operation was successful!
+        console.log(message);
     })
     .catch((error) => {
-        console.log(error); // Output: Async operation failed.
+        console.log(error); 
     });
+
 
 // Chaining promises
 function firstOperation() {
     return new Promise((resolve, reject) => {
         let ran = Math.random() * 10;
+        console.log(ran);
         if (ran > 5) {
             reject("First operation failed.");
         }
@@ -38,6 +52,7 @@ function firstOperation() {
 function secondOperation() {
     return new Promise((resolve, reject) => {
         let ran = Math.random() * 10;
+        console.log(ran);
         if (ran > 5) {
             reject("Second operation failed.");
         }
