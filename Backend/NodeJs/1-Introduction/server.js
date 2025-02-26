@@ -1,6 +1,7 @@
 console.log("Hello");
 var slugify = require('slugify')
 
+console.log(slugify)
 let a = slugify('some string') // some-string
 console.log(a)
 
