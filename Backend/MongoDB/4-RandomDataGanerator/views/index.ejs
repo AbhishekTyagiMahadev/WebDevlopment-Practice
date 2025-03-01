@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Random Data Generator</title>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> -->
+    <style>
+      *{
+        margin: 0;
+        padding: 0;
+      }
+      .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #35f1c9;
+      }
+      .btn{
+        background-color: #f1356d;
+        color: rgb(255, 255, 255);
+        border: 4px solid rgb(22, 168, 3);
+        padding: 20px 40px;
+        border-radius: 40px;
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <button type="button" class="btn btn-primary">Ganerate Now</button>
+    </div>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> -->
+     <script>
+        function getRandomColor() {
+          const letters = '0123456789ABCDEF';
+          let color = '#';
+          for (let i = 0; i < 6; i++) {
+            color += letters[Math.floor(Math.random() * 16)];
+          }
+          return color;
+        }
+
+        const btn = document.querySelector(".btn");
+        const container = document.querySelector(".container");
+        btn.addEventListener("click", async () => {
+          console.log("Button Clicked");
+          btn.style.backgroundColor = getRandomColor();;
+          let a = await fetch("./")
+          let b = await a.json()
+          console.log(r)
+        });
+     </script>
+  </body>
+</html>
