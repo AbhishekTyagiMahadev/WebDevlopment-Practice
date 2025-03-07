@@ -1,0 +1,19 @@
+.card {
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  height: 40vh; 
+  margin: 34px;
+}
+
+.card-title {
+  font-size: 25px;
+  margin: 8px 15px;
+}
+
+.card-content {
+  font-size: 15px;    
+  color: #333;
+  margin-bottom: 8px;
+  margin: 15px;
+}
+
