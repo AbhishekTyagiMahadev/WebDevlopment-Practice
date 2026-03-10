@@ -1,34 +1,69 @@
-# WebDevelopment-Practice
+<h1 align="center">Hi 👋, I'm Abhishek Tyagi</h1>
+<h3 align="center">🚀 Full Stack Developer | MERN Stack | Problem Solver</h3>
 
-Welcome to my WebDevelopment-Practice repository! My name is Abhishek Tyagi, and this is my first repository where I document my journey of learning web development. I am following the "Sigma Web Development Course" playlist by CodeWithHarry.
+---
 
-## About This Repository
+### 👨‍💻 About Me
+- 🎓 MCA Student at **Dr. A.P.J. Abdul Kalam Technical University (AKTU)**
+- 💻 Passionate about **Full Stack Web Development**
+- 🌱 Currently improving my skills in **MERN Stack & System Design**
+- 🧠 Strong interest in **Data Structures & Algorithms**
+- ⚡ Love building **scalable web applications and APIs**
 
-This repository contains various projects, exercises, and practice problems that I have worked on while learning web development. The goal is to apply the concepts and techniques learned from the course and build a solid foundation in web development.
+---
 
-## Contents
+### 🛠️ Tech Stack
 
-### 1. HTML & CSS
-- **HTML Basics**: Introduction to HTML, elements, attributes, and basic structure of web pages.
-- **CSS Basics**: Introduction to CSS, selectors, properties, and basic styling techniques.
-- **Advanced CSS**: Flexbox, Grid, animations, transitions, and responsive design.
+**Frontend**
+- HTML5
+- CSS3
+- JavaScript
+- React.js
 
-### 2. JavaScript
-- **JavaScript Basics**: Variables, data types, operators, and basic syntax.
-- **Functions**: Function declarations, expressions, arrow functions, and IIFE.
-- **Conditionals & Loops**: If-else statements, switch cases, for loops, while loops, and do-while loops.
-- **Arrays & Objects**: Array methods, object properties, and manipulation.
-- **DOM Manipulation**: Selecting elements, event handling, and updating the DOM.
-- **Error Handling**: Try-catch blocks, throwing errors, and custom error handling.
+**Backend**
+- Node.js
+- Express.js
 
-### 3. Projects & Practice Problems
-- **Project 1**: A simple static website using HTML and CSS.
-- **Project 2**: A dynamic web application using JavaScript.
-- **Practice Problems**: Various coding challenges and problems to reinforce learning.
+**Database**
+- MongoDB
+- MySQL
 
-## How to Use This Repository
+**Programming Languages**
+- JavaScript
+- Python
+- Java
 
-Feel free to explore the different folders and files in this repository. Each folder contains specific topics and exercises related to web development. You can clone this repository to your local machine and run the code examples to see how they work.
+**Tools**
+- Git
+- GitHub
+- Postman
+- VS Code
 
-```bash
-git clone https://github.com/your-username/WebDevelopment-Practice.git
+---
+
+### 🚀 Projects
+
+#### 📰 NewsBreeze
+- News aggregator web app using **News API**
+- Categorized news (Sports, Finance, Technology, Politics)
+- Built with **HTML, CSS, JavaScript**
+
+#### 🛒 Shoplane – E-Commerce Website
+- Product listing, cart system, and API integration
+- Built using **HTML, CSS, JavaScript**
+
+#### 🌦 Weather App
+- Real-time weather data using **OpenWeather API**
+- Dynamic UI updates and API integration
+
+---
+
+### 🔗 Connect With Me
+
+- 💼 LinkedIn: https://www.linkedin.com/in/abhishek-tyagi-b17463305/
+- 📧 Email: abhishektyagi250342@gmail.com
+- 🐙 GitHub: https://github.com/AbhishekTyagiMahadev
+
+---
+
+⭐ *"Code. Learn. Build. Repeat."*
